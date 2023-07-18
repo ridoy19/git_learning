@@ -5,15 +5,17 @@ public class Car {
     private long id;
     private String model;
     private int year;
+    private double price;
 
     Car() {
 
     }
 
-    Car(long id, String model, int year) {
+    Car(long id, String model, int year, double price) {
         this.id = id;
         this.model = model;
         this.year = Date.getYear();
+        this.price = price;
     }
 
     public long getId() {
@@ -35,5 +37,12 @@ public class Car {
     };
     public void setYear(int year) {
         this.year = year;   
+    };
+
+    public double getPrice() {
+        return price;
+    };
+    public void setPrice(double price) {
+        this.price = price;   
     };
 }
