@@ -5,6 +5,7 @@ public class Car {
     private long id;
     private String model;
     private int year;
+    private Brand brand;
 
     Car() {
 
@@ -30,4 +31,12 @@ public class Car {
         return year;
     };
     public void setYear(int year);
+
+    public Brand getbrand() {
+            return brand;
+        };
+    public void setBrand(Brand brand) {
+        this.brand = brand;
+    };
+
 }
