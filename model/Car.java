@@ -19,15 +19,21 @@ public class Car {
     public long getId() {
         return id;
     };
-    public void setId(long id);
+    public void setId(long id) {
+        this.id = id;   
+    };
 
     public String getModel() {
         return model;
     };
-    public void setMdel(String model);
+    public void setMdel(String model) {
+        this.model = model;
+    };
 
     public int getYear() {
         return year;
     };
-    public void setYear(int year);
+    public void setYear(int year) {
+        this.year = year;   
+    };
 }
